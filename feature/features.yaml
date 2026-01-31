@@ -1,0 +1,25 @@
+setting:
+  binWidth: 10
+  interpolator: 'sitkBSpline'
+  normalize: true
+  normalizeScale: 100
+  distances: [1, 2, 3]
+  resampledPixelSpacing: [1, 1, 1]
+  weightingNorm: 'euclidean'
+  padDistance: 5
+
+
+imageType:
+  Original: {}
+  Wavelet: {}
+  LoG:
+    sigma: [1.0, 2.0, 3.0]
+
+featureClass:
+  shape:
+  firstorder:
+  glcm:
+  glrlm:
+  glszm:
+  gldm:
+  ngtdm:
