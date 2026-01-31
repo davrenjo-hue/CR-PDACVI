@@ -1,5 +1,7 @@
 Overview
-This project implements a radiomics consensus model for pancreatic ductal adenocarcinoma (PDAC) diagnosis and vascular involvement prediction, using the PANORAMA dataset and integrating radiomic features from 5 pancreatic-related anatomical structures (artery, vein, pancreatic parenchyma, pancreatic duct, common bile duct).
+This project implements a radiomics consensus model for pancreatic ductal adenocarcinoma (PDAC) diagnosis and vascular involvement prediction,
+using the PANORAMA dataset and integrating radiomic features from 5 pancreatic-related anatomical structures 
+(artery, vein, pancreatic parenchyma, pancreatic duct, common bile duct).
 .
 ├── Modeling of various structures/  # Single-structure model training
 │   └── modeling.py                 # Train structure-specific classifiers
